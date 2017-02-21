@@ -2,7 +2,9 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-   var rand = (Math.floor(Math.random() * 6) + 1) * 10000000;
+   // Uncomment for random response
+   //var rand = (Math.floor(Math.random() * 6) + 1) * 10000000;
+   var rand = 1000000000;
    var startTime = Date.now();
    waiter(rand, res, startTime);
 });

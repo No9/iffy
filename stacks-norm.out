@@ -1,0 +1,1920 @@
+CPU     ID                    FUNCTION:NAME
+  0  67113                        :tick-60s 
+
+
+              node`v8::internal::NameDictionaryBase<v8::internal::NameDictionary, v8::internal::NameDictionaryShape>::FindEntry(v8::internal::Handle<v8::internal::Name>)+0x109
+              node`v8::internal::LookupIterator::State v8::internal::LookupIterator::LookupInRegularHolder<false>(v8::internal::Map*, v8::internal::JSReceiver*)+0x108
+              node`void v8::internal::LookupIterator::Start<false>(void)+0x4b
+              node`v8::internal::Object v8::internal::LookupIterator::PropertyOrElement(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(bool*, v8::internal::LookupIterator::Configuration)+0x261
+              node`v8::internal::Object v8::internal::Runtime::GetObjectProperty(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>()+0x9d
+              node`v8::internal::Runtime_GetProperty(int, v8::internal::Object**, v8::internal::Isolate*)+0x17b
+              << exit >>
+              afterWrite at net.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::StreamBase::AfterWrite(node::WriteWrap*, int)+0x20d
+              node`node::StreamWrap::AfterWrite(uv_write_s*, int)+0x4d
+              node`uv__write_callbacks+0xc8
+              node`uv__stream_destroy+0xd8
+              node`uv_run+0x21d
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+                1
+
+              << adaptor >>
+              header at /usr/home/anton/code/iffy/node_modules/express/lib/response.js line 1067
+              contentType at /usr/home/anton/code/iffy/node_modules/express/lib/response.js line 1067
+              send at /usr/home/anton/code/iffy/node_modules/express/lib/response.js line 534
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+                1
+
+              libgcc_s.so.1`__modti3+0xe8
+              doWrite at _stream_writable.js pos 
+              libgcc_s.so.1`malloc+0x33c
+              (anon) as Writable.uncork at _stream_writable.js pos 
+              (anon) as OutgoingMessage.end at _http_outgoing.js pos 
+              << adaptor >>
+              send at /usr/home/anton/code/iffy/node_modules/express/lib/response.js line 534
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+                1
+
+              node`v8::internal::LChunkBuilder::DoBasicBlock(v8::internal::HBasicBlock*, v8::internal::HBasicBlock)+0x219
+              node`v8::internal::LChunkBuilder::Build(void)+0x147
+              node`v8::internal::LChunk::NewChunk(v8::internal::HGraph*)+0xce
+              node`v8::internal::OptimizeGraph(v8::internal::HGraph*)+0x25
+              node`v8::internal::StoreTransitionStub::GenerateCode(void)+0xf8
+              node`v8::internal::CodeStub::GetCode(void)+0xad
+              node`v8::internal::NamedStoreHandlerCompiler::CompileStoreTransition<v8::internal::Name> v8::internal::NamedStoreHandlerCompiler::CompileStoreTransition(v8::internal::Handle<v8::internal::Map>()+0x493
+              node`v8::internal::CacheHolderFlag v8::internal::StoreIC::CompileHandler(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>()+0x6e6
+              node`v8::internal::IC::ComputeHandler(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>)+0x114
+              node`v8::internal::Handle::StoreFromKeyed v8::internal::StoreIC::UpdateCaches(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>()+0x72
+              node`v8::internal::StoreIC::Store<v8::internal::Name> v8::internal::StoreIC::Store(v8::internal::Handle<v8::internal::Object>(v8::internal::Object, v8::internal::Handle::StoreFromKeyed)+0x376
+              node`v8::internal::Runtime_StoreIC_Miss(int, v8::internal::Object**, v8::internal::Isolate*)+0x961
+              << exit >>
+              (anon) as ServerResponse.writeHead at _http_server.js pos 
+              << adaptor >>
+              (anon) as ServerResponse._implicitHeader at _http_server.js pos 
+              (anon) as OutgoingMessage.end at _http_outgoing.js pos 
+              << adaptor >>
+              send at /usr/home/anton/code/iffy/node_modules/express/lib/response.js line 534
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+                1
+
+              (anon) as Readable.read at _stream_readable.js pos 
+              (anon) as Socket.read at net.js pos 
+              Socket at net.js pos 
+              << constructor >>
+              onconnection at net.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::ConnectionWrap<node::TCPWrap, uv_tcp_s>::OnConnection(uv_stream_s*, int)+0x14c
+              node`uv__server_io+0xa7
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+                1
+
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+                1
+
+              node`v8::internal::HGraph::HGraph(v8::internal::CompilationInfo*, v8::internal::CallInterfaceDescriptor)+0x1fa
+              node`v8::internal::HGraphBuilder::CreateGraph(void)+0x47
+              node`v8::internal::StoreTransitionStub::GenerateCode(void)+0xf0
+              node`v8::internal::CodeStub::GetCode(void)+0xad
+              node`v8::internal::NamedStoreHandlerCompiler::CompileStoreTransition<v8::internal::Name> v8::internal::NamedStoreHandlerCompiler::CompileStoreTransition(v8::internal::Handle<v8::internal::Map>()+0x493
+              node`v8::internal::CacheHolderFlag v8::internal::StoreIC::CompileHandler(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>()+0x6e6
+              node`v8::internal::IC::ComputeHandler(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>)+0x114
+              node`v8::internal::Handle::StoreFromKeyed v8::internal::StoreIC::UpdateCaches(v8::internal::LookupIterator*, v8::internal::Handle<v8::internal::Object>()+0x72
+              node`v8::internal::StoreIC::Store<v8::internal::Name> v8::internal::StoreIC::Store(v8::internal::Handle<v8::internal::Object>(v8::internal::Object, v8::internal::Handle::StoreFromKeyed)+0x376
+              node`v8::internal::Runtime_StoreIC_Miss(int, v8::internal::Object**, v8::internal::Isolate*)+0x961
+              << exit >>
+              init at internal/linkedlist.js pos 
+              (anon) as exports.enroll at timers.js pos 
+              (anon) as Socket.setTimeout at net.js pos 
+              << adaptor >>
+              connectionListener at _http_server.js pos 
+              emitOne at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              onconnection at net.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::ConnectionWrap<node::TCPWrap, uv_tcp_s>::OnConnection(uv_stream_s*, int)+0x14c
+              node`uv__server_io+0xa7
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+                1
+
+              << internal >>
+              send at /usr/home/anton/code/iffy/node_modules/express/lib/response.js line 534
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+                1
+
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+                1
+
+              node`v8::internal::Heap::AllocateRaw(int, v8::internal::AllocationSpace, v8::internal::AllocationAlignment)+0x10e
+              node`v8::internal::Heap::CopyFixedArrayAndGrow(v8::internal::FixedArray*, int, v8::internal::PretenureFlag)+0x61
+              node`int v8::internal::Factory::CopyFixedArrayAndGrow(v8::internal::Handle<v8::internal::FixedArray>(v8::internal::PretenureFlag)+0x2d
+              node`v8::internal::DependentCode::DependencyGroup v8::internal::DependentCode::Insert(v8::internal::Handle<v8::internal::DependentCode>(v8::internal::DependentCode::Insert<v8::internal::Object>)+0x178
+              node`v8::internal::CompilationDependencies::Insert(v8::internal::DependentCode::DependencyGroup, v8::internal::Handle<v8::internal::HeapObject>)+0x183
+              node`v8::internal::HOptimizedGraphBuilder::VisitVariableProxy(v8::internal::VariableProxy*)+0x82f
+              node`v8::internal::HOptimizedGraphBuilder::VisitCallNew(v8::internal::CallNew*)+0xc1
+              node`v8::internal::HOptimizedGraphBuilder::VisitThrow(v8::internal::Throw*)+0xa9
+              node`virtual function non-virtual override offset : -64 v8::internal::HOptimizedGraphBuilder::VisitExpressionStatement(v8::internal::ExpressionStatement*)+0x66
+              node`v8::internal::HOptimizedGraphBuilder::VisitIfStatement(v8::internal::IfStatement*)+0x272
+              node`v8::internal::HOptimizedGraphBuilder::VisitStatements(v8::internal::ZoneList<v8::internal::Statement*>*)+0x56
+              node`v8::internal::HOptimizedGraphBuilder::BuildGraph(void)+0x2bf
+              node`v8::internal::HGraphBuilder::CreateGraph(void)+0xb6
+              node`v8::internal::OptimizedCompileJob::CreateGraph(void)+0x6d4
+              node`v8::internal::Compiler::ConcurrencyMode v8::internal::(anonymous namespace)::GetOptimizedCode(v8::internal::Handle<v8::internal::JSFunction>(v8::internal::BailoutId, v8::internal::JavaScriptFrame*)+0x5c8
+              node`v8::internal::Compiler::ConcurrencyMode v8::internal::Compiler::CompileOptimized(v8::internal::Handle<v8::internal::JSFunction>()+0x32
+              node`v8::internal::Runtime_CompileOptimized_Concurrent(int, v8::internal::Object**, v8::internal::Isolate*)+0x273
+              << exit >>
+              << internal >>
+              header at /usr/home/anton/code/iffy/node_modules/express/lib/response.js line 1067
+              send at /usr/home/anton/code/iffy/node_modules/express/lib/response.js line 534
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+                1
+
+              emit at events.js pos 
+              (anon) as OutgoingMessage._finish at _http_outgoing.js pos 
+              (anon) as ServerResponse._finish at _http_server.js pos 
+              (anon) as OutgoingMessage.end at _http_outgoing.js pos 
+              << adaptor >>
+              send at /usr/home/anton/code/iffy/node_modules/express/lib/response.js line 534
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+                1
+
+              node`_ZN2v88internal12_GLOBAL__N_119HandleApiCallHelperILb0EEENS0_11MaybeHandleINS0_6ObjectEEEPNS0_7IsolateENS1_16BuiltinArgumentsILNS0_21BuiltinExtraArgumentsE1EEE+0xf0
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x1c8
+              << exit >>
+              (anon) as ServerResponse._finish at _http_server.js pos 
+              (anon) as OutgoingMessage.end at _http_outgoing.js pos 
+              << adaptor >>
+              send at /usr/home/anton/code/iffy/node_modules/express/lib/response.js line 534
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+                1
+
+              node`v8::internal::Scope::ResolveVariable(v8::internal::ParseInfo*, v8::internal::VariableProxy*, v8::internal::AstNodeFactory*)+0x165
+              node`v8::internal::Scope::Analyze(v8::internal::ParseInfo*)+0x93
+              node`v8::internal::Compiler::Analyze(v8::internal::ParseInfo*)+0x1e
+              node`v8::internal::(anonymous namespace)::GetUnoptimizedCodeCommon(v8::internal::CompilationInfo*)+0xc4
+              node`v8::internal::Compiler::ClearExceptionFlag v8::internal::Compiler::Compile(v8::internal::Handle<v8::internal::JSFunction>()+0x729
+              node`v8::internal::Runtime_CompileLazy(int, v8::internal::Object**, v8::internal::Isolate*)+0x26d
+              << exit >>
+              << internal >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+                1
+
+              (anon) as Socket.destroySoon at net.js pos 
+              resOnFinish at _http_server.js pos 
+              emitNone at events.js pos 
+              emit at events.js pos 
+              finish at _http_outgoing.js pos 
+              _combinedTickCallback at internal/process/next_tick.js pos 
+              _tickCallback at internal/process/next_tick.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x362
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0xdb
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+                1
+
+              node`v8::internal::LCodeGen::GenerateBodyInstructionPre(v8::internal::LInstruction*)+0x2a
+              node`v8::internal::LCodeGenBase::GenerateBody(void)+0x114
+              node`v8::internal::LCodeGen::GenerateCode(void)+0x5e
+              node`v8::internal::LChunk::Codegen(void)+0x83
+              node`v8::internal::OptimizedCompileJob::GenerateCode(void)+0x83
+              node`v8::internal::Compiler::FinalizeOptimizedCompileJob(v8::internal::OptimizedCompileJob*)+0x242
+              node`v8::internal::OptimizingCompileDispatcher::InstallOptimizedFunctions(void)+0x198
+              node`v8::internal::StackGuard::HandleInterrupts(void)+0x1c8
+              node`v8::internal::Runtime_StackGuard(int, v8::internal::Object**, v8::internal::Isolate*)+0x140
+              << exit >>
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+                1
+
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+                2
+
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+                3
+
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+                5
+
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+                6
+
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+                7
+
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+                7
+
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+               24
+
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+               44
+
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+               54
+
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+               74
+
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+               79
+
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+               89
+
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+              153
+
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+              162
+
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+              316
+
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+              320
+
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+              349
+
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+              503
+
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+             1308
+
+              waiter at /usr/home/anton/code/iffy/index.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/index.js pos 
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              << adaptor >>
+              dispatch at /usr/home/anton/code/iffy/node_modules/express/lib/router/route.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              expressInit at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/init.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              query at /usr/home/anton/code/iffy/node_modules/express/lib/middleware/query.js pos 
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/layer.js pos 
+              trim_prefix at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              (anon) as (anon) at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              process_params at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              next at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 647
+              << adaptor >>
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/router/index.js line 567
+              handle at /usr/home/anton/code/iffy/node_modules/express/lib/application.js line 645
+              app at /usr/home/anton/code/iffy/node_modules/express/lib/express.js pos 
+              << adaptor >>
+              emitTwo at events.js pos 
+              emit at events.js pos 
+              << adaptor >>
+              parserOnIncoming at _http_server.js pos 
+              parserOnHeadersComplete at _http_common.js pos 
+              << internal >>
+              << entry >>
+              node`v8::internal::Object v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*, v8::internal::Object)+0x187
+              node`v8::internal::Object v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>(int, v8::internal::Object*)+0x14d
+              node`v8::Function::Call<v8::Value> v8::Function::Call(v8::Local<v8::Context>(int, v8::Value*)+0x1dc
+              node`int node::AsyncWrap::MakeCallback(v8::Local<node::AsyncWrap::MakeCallback::Function>(v8<node::AsyncWrap::MakeCallback::Value>*)+0x244
+              node`node::Parser::on_headers_complete_(void)+0x21c
+              node`http_parser_execute+0x2c7
+              node`node::Parser::Execute(char*, unsigned long)+0x53
+              node`node::Parser::OnReadImpl(long, uv_buf_t const*, uv_handle_type, void*)+0x69
+              node`node::StreamWrap::OnReadCommon(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x7f
+              node`uv__stream_io+0x50e
+              node`uv__io_poll+0x5d2
+              node`uv_run+0x1b8
+              node`node::Start(int, char**)+0x2a0
+              node`realloc+0x6f7
+              ld-elf.so.1`0x8022be000
+             1714
