@@ -1,0 +1,26 @@
+{
+  "name": "iffy",
+  "version": "1.0.0",
+  "description": "A test web server with random latency - DEMO ONLY",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/No9/iffy.git"
+  },
+  "keywords": [
+    "test",
+    "service"
+  ],
+  "author": "anton whalley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/No9/iffy/issues"
+  },
+  "homepage": "https://github.com/No9/iffy#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
